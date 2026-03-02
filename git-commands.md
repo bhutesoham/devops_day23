@@ -16,6 +16,10 @@
 
 - `git remote add origin <remote git URL>` - Add remote origin URL
 
+- `git branch -d <branch_name>` - delete the local branch (better to do it after it is merged)
+
+- `git push origin --delete <branch_name>` - to remove the remote branch from GitHub
+
 ### Basic Workflow -
 
 - `git init` - initiate a new git repository
